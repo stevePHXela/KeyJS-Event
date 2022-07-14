@@ -4,7 +4,7 @@
 ## Description
 A tool build by developer for developer, A simple tool for key events use just press any button and you will get all information.
 
-## What's for build
+## Why i build it
 I've been build funny simple 2D game with Javascript and i've been using key event alot and searching every time
 so i wanted simple and fast way to get key code infos
 
