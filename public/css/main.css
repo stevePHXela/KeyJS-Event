@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 550px;
+  min-width: 550px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.app-version {
+  position: absolute;
+  top: 1.4rem;
+  right: 1.6rem;
+}
+.app-version small {
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1.2rem;
+  left: 2rem;
+}
+header h1 {
+  font-size: 1.6rem;
+}
+header h1 span {
+  color: #4169e1;
+}
+header img {
+  width: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container div:not(:first-child) {
+  margin-left: 2em;
+}
+.container p {
+  padding: 0.8em;
+  border: 0.2em solid #2d2d2d;
+  border-radius: 0.4em;
+  font-size: 1.5rem;
+  opacity: 0.85;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container p:active {
+  background-color: rgba(45, 45, 45, 0.1);
+}
+.container small {
+  display: block;
+  margin-bottom: 0.6em;
+  font-size: 1.05rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #4169e1;
+}
+
+h2 {
+  display: none;
+  position: absolute;
+  bottom: 25vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.coped-message {
+  font-size: 1.2rem;
+  color: #2d2d2d;
+  background-color: rgb(95, 255, 47);
+  padding: 0.6em 0.8em;
+  border-radius: 0.5em;
+  position: absolute;
+  bottom: 4rem;
+  right: -300px;
+  transition: 300ms all ease-out;
+}
+
+.active {
+  transform: translateX(-325px);
+}
+
+input {
+  display: none !important;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+footer p {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #4169e1;
+          text-decoration-color: #4169e1;
+}
+footer p strong {
+  color: #4169e1;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div a {
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+footer div a svg {
+  margin-left: 0.5em;
+  width: 16px;
+  height: 16px;
+  fill: #4169e1;
+}/*# sourceMappingURL=main.css.map */

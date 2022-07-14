@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "key Event JS",
+    "description":"A tool build by developer for developer, A simple tool for key events use just press any button and you will get all information.",
+    "version": "1.0.0",
+    "icons": {
+        "16": "assets/logo-16.png",
+        "48": "assets/logo-48.png",
+        "128": "assets/logo-128.png"
+    },
+    "action": {
+        "default_icon": "assets/logo-128.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
