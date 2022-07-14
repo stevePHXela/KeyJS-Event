@@ -15,3 +15,6 @@ so i wanted simple and fast way to get key code infos
 ## Features will add
 * Adding more code information.
 * Dark And light mode
+
+## License
+Lol, Open source project 
