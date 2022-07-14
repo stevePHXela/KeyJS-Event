@@ -1,4 +1,4 @@
-![KeyJS_Event_banner](https://user-images.githubusercontent.com/93380259/179064861-99c9b38e-d7ab-42fc-baa6-0cfdd2ecc1e3.png)
+![KeyJS_Event_banner](https://user-images.githubusercontent.com/93380259/179065676-075563a6-d0ba-44d2-9b6e-7dc27eb91708.png)
 # Browser Extension
 
 ## Description
