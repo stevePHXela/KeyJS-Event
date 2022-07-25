@@ -1,6 +1,8 @@
 ![KeyJS_Event_banner](https://user-images.githubusercontent.com/93380259/179065676-075563a6-d0ba-44d2-9b6e-7dc27eb91708.png)
 # Browser Extension
 
+## [mIcrosoft Edge](https://microsoftedge.microsoft.com/addons/detail/keyjs-event/pkndbhbkfiepoibanjicagbkodiaebmi)
+
 ## Description
 A tool build by developer for developer, A simple tool for key events use just press any button and you will get all information.
 
